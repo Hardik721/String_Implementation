@@ -1,11 +1,9 @@
 import java.util.Scanner;
 
-public class Uppercase {
+public class Totalweight {
     public static void main(String[] args) {
         Scanner object = new Scanner(System.in);
         String str = object.nextLine();
-        String str1 = str.toUpperCase();
-        System.out.println(str1);
 
     }
 }
