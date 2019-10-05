@@ -5,6 +5,8 @@ public class Index {
         Scanner object = new Scanner();
         String str = object.nextLine();
         char character = object.next().charAt(0);
+        System.out.println(str.indexOf(character));
+
 
     }
 }
