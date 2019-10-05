@@ -14,6 +14,10 @@ public class Absoluteweight {
                 sumoflowerweight = sumoflowerweight + (int) character;
             }
         }
+        int absoluteWeight = sumofupperweight - sumoflowerweight;
+        if (absoluteWeight >= 0) {
+            System.out.println(absoluteWeight);
+
 
         }
     }
