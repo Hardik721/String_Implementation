@@ -10,7 +10,10 @@ public class Absoluteweight {
             char character = str.charAt(i);
             if (character >= 'A' && character <= 'Z') {
                 sumofupperweight = sumofupperweight + (int) character;
+            } else if (character >= 'a' && character <= 'z') {
+                sumoflowerweight = sumoflowerweight + (int) character;
             }
+        }
 
         }
     }
